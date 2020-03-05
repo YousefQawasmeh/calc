@@ -76,6 +76,6 @@ document.getElementById("e").addEventListener("click", function(event) {
     y = 0;
 });
 document.getElementById("clearHist").addEventListener("click", function(event) {
-    hist.innerText = "";
+    hist.innerText = " History";
 
 });
