@@ -75,3 +75,7 @@ document.getElementById("e").addEventListener("click", function(event) {
     x = 0;
     y = 0;
 });
+document.getElementById("clearHist").addEventListener("click", function(event) {
+    hist.innerText = "";
+
+});
